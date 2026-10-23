@@ -1,0 +1,19 @@
+# Ambiente virtual e caches do Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Segredos e configuração local (NUNCA versionar)
+.env
+
+# Arquivos gerados
+db.sqlite3
+staticfiles/
+.coverage
+htmlcov/
+
+# Editores e sistema
+.vscode/
+.idea/
+.DS_Store
